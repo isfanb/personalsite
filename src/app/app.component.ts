@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'personal-site';
+  date = new Date();
+  getYear = this.date.getFullYear();
 }
